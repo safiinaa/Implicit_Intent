@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etHp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="No. Hp"
+        android:textColor="@color/black"/>
+    
+    <Button
+        android:id="@+id/btnDialpad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DIALPAD"
+        android:background="@color/design_default_color_on_primary"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONTACT"
+        android:background="@color/design_default_color_on_primary"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CAMERA"
+        android:background="@color/design_default_color_on_primary"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnGalery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GALERY"
+        android:background="@color/design_default_color_on_primary"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnBrowser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BROWSER"
+        android:background="@color/design_default_color_on_primary"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnGoogle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GOOGLE"
+        android:background="@color/design_default_color_on_primary"
+        android:layout_marginBottom="16dp"/>
+</LinearLayout>
